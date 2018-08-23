@@ -18,8 +18,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/net/context"
-	"golang.org/x/oauth2"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/oauth2"
 )
 
 type sdkCredentials struct {

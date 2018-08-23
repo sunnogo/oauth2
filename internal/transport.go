@@ -7,10 +7,10 @@ package internal
 import (
 	"net/http"
 
-	"golang.org/x/net/context"
+	"github.com/sunnogo/net/context"
 )
 
-// HTTPClient is the context key to use with golang.org/x/net/context's
+// HTTPClient is the context key to use with github.com/sunnogo/net/context's
 // WithValue function to associate an *http.Client value with a context.
 var HTTPClient ContextKey
 

@@ -14,8 +14,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/jws"
+	"github.com/sunnogo/oauth2"
+	"github.com/sunnogo/oauth2/jws"
 )
 
 var dummyPrivateKey = []byte(`-----BEGIN RSA PRIVATE KEY-----

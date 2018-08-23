@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/net/context"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/internal"
-	"golang.org/x/oauth2/jws"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/oauth2"
+	"github.com/sunnogo/oauth2/internal"
+	"github.com/sunnogo/oauth2/jws"
 )
 
 var (

@@ -11,7 +11,7 @@
 // server.
 //
 // See https://tools.ietf.org/html/rfc6749#section-4.4
-package clientcredentials // import "golang.org/x/oauth2/clientcredentials"
+package clientcredentials // import "github.com/sunnogo/oauth2/clientcredentials"
 
 import (
 	"fmt"
@@ -19,9 +19,9 @@ import (
 	"net/url"
 	"strings"
 
-	"golang.org/x/net/context"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/internal"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/oauth2"
+	"github.com/sunnogo/oauth2/internal"
 )
 
 // Config describes a 2-legged OAuth2 flow, with both the

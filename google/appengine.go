@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/net/context"
-	"golang.org/x/oauth2"
+	"github.com/sunnogo/net/context"
+	"github.com/sunnogo/oauth2"
 )
 
 // appengineFlex is set at init time by appengineflex_hook.go. If true, we are on App Engine Flex.
