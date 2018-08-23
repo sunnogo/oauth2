@@ -14,8 +14,8 @@ import (
 	"github.com/sunnogo/oauth2"
 	"github.com/sunnogo/oauth2/google"
 	"github.com/sunnogo/oauth2/jwt"
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/urlfetch"
+	"github.com/sunnogo/appengine"
+	"github.com/sunnogo/appengine/urlfetch"
 )
 
 func ExampleDefaultClient() {

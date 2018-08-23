@@ -6,7 +6,7 @@
 
 package internal
 
-import "google.golang.org/appengine/urlfetch"
+import "github.com/sunnogo/appengine/urlfetch"
 
 func init() {
 	appengineClientHook = urlfetch.Client
